@@ -4,8 +4,8 @@ Simulaciones Monte Carlo desarrolladas para el Parcial 4 del curso **MM3014 - Te
 
 ## Autores
 
-- Emily Góngora
-- Alejandro Pérez
+* Emily Góngora
+* Alejandro Pérez
 
 ---
 
@@ -38,8 +38,8 @@ Simulación del lanzamiento de dos dados justos de seis caras.
 
 ### Se estima:
 
-- \( P(\text{suma} = 7) \)
-- \( P(\text{suma} = 7 \mid \text{al menos un dado es par}) \)
+* Probabilidad de que la suma de los dos dados sea 7.
+* Probabilidad de que la suma sea 7 dado que al menos uno de los dados es par.
 
 ---
 
@@ -49,8 +49,8 @@ Simulación del lanzamiento de tres monedas justas.
 
 ### Se estima:
 
-- \( P(\text{exactamente 2 caras}) \)
-- \( E[X] \), donde \( X \) es el número de caras obtenidas
+* Probabilidad de obtener exactamente 2 caras.
+* Valor esperado de X, donde X representa el número de caras obtenidas.
 
 ---
 
@@ -60,15 +60,15 @@ Simulación del lanzamiento de tres monedas justas.
 
 Caja con:
 
-- 5 rojas
-- 3 azules
-- 2 verdes
+* 5 rojas
+* 3 azules
+* 2 verdes
 
 Se extraen dos canicas sin reemplazo.
 
 Se estima:
 
-- \( P(\text{ambas rojas}) \)
+* Probabilidad de que ambas canicas sean rojas.
 
 ### Parte 2
 
@@ -78,7 +78,7 @@ Se selecciona una caja al azar y se extraen dos canicas sin reemplazo.
 
 Dado que se observa una canica roja y una verde, se estima:
 
-- \( P(\text{Caja 1} \mid \text{una roja y una verde}) \)
+* Probabilidad de que las canicas provengan de la Caja 1.
 
 ---
 
@@ -88,19 +88,19 @@ Simulación de extracción de cartas de una baraja estándar de 52 cartas sin re
 
 ### Se estima:
 
-- \( P(\text{ambas son ases}) \)
+* Probabilidad de que ambas cartas sean ases.
 
 Además se analizan los eventos:
 
-- \( A \): la primera carta es un as
-- \( B \): la segunda carta es un as
+* A: la primera carta extraída es un as.
+* B: la segunda carta extraída es un as.
 
 Calculando:
 
-- \( P(A) \)
-- \( P(B) \)
-- \( P(A \cap B) \)
-- \( P(A)P(B) \)
+* P(A)
+* P(B)
+* P(A ∩ B)
+* P(A) × P(B)
 
 para determinar si los eventos son independientes.
 
@@ -108,8 +108,8 @@ para determinar si los eventos son independientes.
 
 ## Requisitos
 
-- Python 3.x
-- Librerías estándar de Python únicamente
+* Python 3.x
+* Librerías estándar de Python únicamente
 
 No se requieren dependencias externas.
 
@@ -139,12 +139,12 @@ python problema_d_cartas.py
 
 ## Características de implementación
 
-- Semilla fija para reproducibilidad (`2026`).
-- Exactamente `10,000` simulaciones por experimento.
-- Código modular y documentado.
-- Comentarios explicativos en español.
-- Parámetros configurables para facilitar modificaciones futuras.
-- Separación entre simulación, cálculo y presentación de resultados.
+* Semilla fija para reproducibilidad (2026).
+* Exactamente 10,000 simulaciones por experimento.
+* Código modular y documentado.
+* Comentarios explicativos en español.
+* Parámetros configurables para facilitar modificaciones futuras.
+* Separación entre simulación, cálculo y presentación de resultados.
 
 ---
 
@@ -153,3 +153,5 @@ python problema_d_cartas.py
 Las respuestas se obtienen mediante simulación Monte Carlo y pueden variar ligeramente respecto a los valores teóricos esperados debido al carácter aleatorio del método.
 
 Todos los resultados se muestran con cuatro decimales.
+
+
